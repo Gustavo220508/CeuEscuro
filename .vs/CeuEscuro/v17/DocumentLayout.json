@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\ceuescuro.ui\\adm\\manageruser.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\adm\\manageruser.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|c:\\users\\gustavo.cbrito2\\source\\repos\\ceuescuro\\ceuescuro.ui\\_ceuescuro\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\_ceuescuro\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\ceuescuro.ui\\adm\\film.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\adm\\film.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\ceuescuro.ui\\user\\consultauser.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\user\\consultauser.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|c:\\users\\gustavo.cbrito2\\source\\repos\\ceuescuro\\ceuescuro.ui\\resource\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\resource\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\ceuescuro.ui\\adm\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\adm\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\ceuescuro.ui\\adm\\film.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\adm\\film.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\ceuescuro.ui\\user\\consultafilm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\user\\consultafilm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\ceuescuro.ui\\user\\consultafilm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F66AD82-996C-42BB-A5DD-86A1073E815C}|CeuEscuro.UI\\CeuEscuro.UI.csproj|solutionrelative:ceuescuro.ui\\user\\consultafilm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\_CeuEscuro\\index.html",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\_CeuEscuro\\index.html",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\_CeuEscuro\\index.html",
+              "RelativeToolTip": "CeuEscuro.UI\\_CeuEscuro\\index.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-24T17:03:23.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.aspx",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\User.aspx",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\adm\\User.aspx",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\User.aspx",
+              "RelativeToolTip": "CeuEscuro.UI\\adm\\User.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-14T16:35:10.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsultaUser.Master",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\user\\ConsultaUser.Master",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\user\\ConsultaUser.Master",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\user\\ConsultaUser.Master",
+              "RelativeToolTip": "CeuEscuro.UI\\user\\ConsultaUser.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-10T20:15:00.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\resource\\style.css",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\resource\\style.css",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\resource\\style.css",
+              "RelativeToolTip": "CeuEscuro.UI\\resource\\style.css",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAJQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-07T18:00:57.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsultaFilm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\user\\ConsultaFilm.aspx.cs",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\user\\ConsultaFilm.aspx.cs",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\user\\ConsultaFilm.aspx.cs",
+              "RelativeToolTip": "CeuEscuro.UI\\user\\ConsultaFilm.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:01:44.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsultaFilm.aspx",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\user\\ConsultaFilm.aspx",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\user\\ConsultaFilm.aspx",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\user\\ConsultaFilm.aspx",
+              "RelativeToolTip": "CeuEscuro.UI\\user\\ConsultaFilm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-10T19:59:02.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Film.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\Film.aspx.cs",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\adm\\Film.aspx.cs",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\Film.aspx.cs",
+              "RelativeToolTip": "CeuEscuro.UI\\adm\\Film.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:37:53.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Film.aspx",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\Film.aspx",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\adm\\Film.aspx",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\Film.aspx",
+              "RelativeToolTip": "CeuEscuro.UI\\adm\\Film.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-10T19:37:51.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagerUser.Master",
+              "DocumentMoniker": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\ManagerUser.Master",
+              "RelativeDocumentMoniker": "CeuEscuro.UI\\adm\\ManagerUser.Master",
+              "ToolTip": "C:\\Users\\gustavo.cbrito2\\source\\repos\\CeuEscuro\\CeuEscuro.UI\\adm\\ManagerUser.Master",
+              "RelativeToolTip": "CeuEscuro.UI\\adm\\ManagerUser.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-09T18:16:53.184Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

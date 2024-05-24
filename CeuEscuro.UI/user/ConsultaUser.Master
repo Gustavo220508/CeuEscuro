@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ConsultaUser.master.cs" Inherits="CeuEscuro.UI.user.ConsultaUser" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../resource/style.css" rel="stylesheet" />
+    <title>Ceu Escuro</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--menu--%>
+        <div class="menu">
+            <nav>
+                <ul class="menuInner">
+                    <li>
+                        <img src="../img/logoAp (1).png" />
+                    </li>
+                    <li>
+                        <a href="Consulta.aspx">User</a>
+                    </li>
+                    <li>
+                        <a href="ConsultaFilm.aspx">Film</a>
+                    </li>
+                    <li>
+                        <a href="../Login.aspx">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <%--footer--%>
+    </form>
+    <div class="rodape">
+        <rodape>
+            <ul class="rodapeInner">
+                <li>
+                    <img src="../img/logoAp (1).png" />
+                </li>
+                <li>
+                    <span>Copyright &copy; all rights reserved 2012</span>
+                </li>
+                <li>
+                    <span>Powered by dark sky</span>
+                </li>
+                <li></li>
+            </ul>
+        </rodape>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

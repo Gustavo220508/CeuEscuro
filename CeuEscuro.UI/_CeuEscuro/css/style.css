@@ -1,0 +1,584 @@
+/*#region global*/
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Light.otf');
+}
+
+/*reset*/
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*rem*/
+:root {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+/*em*/
+body {
+    font-size: 12px;
+    overflow-x: hidden;
+}
+
+/*colors*/
+:root {
+    --color-default: #11101d;
+    --color-primary: deepskyblue;
+    --color-secondary: aliceblue;
+    --color-tertiary: #d2d2d2;
+    --color-base: #e9e9e9;
+    --color-title: #333333;
+    --color-base-black: rgb(0, 0, 0);
+    --color-base-white: white;
+}
+
+/*sizes*/
+:root {
+    --super-hero: 2.5rem;
+    --title-default: 1.5rem;
+    --subtitle-default: 1rem;
+    --paragraph-default: 1.2em;
+    --anchor-default: 1.3em;
+}
+
+h1 {
+    font-size: var(--title-default);
+}
+
+h2 {
+    font-size: var(--subtitle-default);
+}
+
+p {
+    font-size: var(--paragraph-default);
+}
+
+a {
+    font-size: var(--anchor-default);
+    transition: .3s;
+}
+
+label{
+    font-size: var(--subtitle-default);
+}
+
+:hover {
+    transition: .3s;
+}
+
+section {
+    height: 100vh;
+}
+
+h1>span {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 0 .1em;
+}
+
+/*#endregion*/
+
+/*#region topo*/
+.topo {
+    background-image: url('../img/bgTopo.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+
+.topo>h1 {
+    position: absolute;
+    top: 7em;
+    color: aliceblue;
+    right: -50%;
+    left: -50%;
+    font-size: var(--super-hero);
+}
+
+.topo>h2 {
+    position: absolute;
+    top: 14em;
+    color: rgb(222, 222, 222);
+    right: -50%;
+    left: -50%;
+    font-size: var(--title-default);
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 100;
+}
+
+.menuInner {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+    position: relative;
+}
+
+.menuInner li>a {
+    height: 100%;
+    line-height: 100%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.menuInner li:not(:first-child) {
+    display: block;
+    transition: .3s;
+    margin-left: 1.2rem;
+}
+
+.menuInner li:hover:not(:first-child) {
+    background-color: transparent;
+    padding: 3.8vh 5px;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: red;
+}
+
+.menuInner li:hover a {
+    color: rgb(255, 0, 0);
+}
+
+.menuInner li:last-child {
+    position: absolute;
+    right: 1em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 2.5rem;
+    padding: 0 .5em;
+    color: var(--color-title);
+}
+
+.logo h4 {
+    font-size: 2em;
+    /* padding: 0 .5em; */
+    color: rgb(255, 255, 255)
+}
+
+.quickContact {
+    width: 70%;
+    height: 12em;
+    background-color: transparent;
+    position: absolute;
+    bottom: 10rem;
+    margin: 0 auto;
+    right: -50%;
+    left: -50%;
+    text-align: center;
+    z-index: 99;
+}
+
+.quickContact h1 {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    padding: 1.5em 0;
+}
+
+.quickContact input[type=text],
+[type=email] {
+    padding: 0 1em;
+    width: 30%;
+    margin: 0 1rem;
+    border: none;
+    background-color: var(--color-base);
+    outline: none;
+    color: var(--color-title);
+}
+
+.quickContact input[type=text]:focus,
+[type=email]:focus {
+    background-color: rgb(186, 186, 186);
+}
+
+.quickContact input[type=submit] {
+    padding: 0 1em;
+    width: 5rem;
+    height: 2.5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--color-base-black);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.quickContact input[type=submit]:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(161, 0, 0);
+}
+
+.banner {
+    width: 100%;
+    height: 14.5rem;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10em 5em;
+}
+
+.banner h1,
+h2 {
+    color: var(--color-secondary);
+}
+
+/*#endregion*/
+
+/*#region about*/
+#about {
+    padding-top: 15rem;
+    width: 100%;
+    text-align: center;
+}
+
+#about h1 {
+    padding-top: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+    padding: 5rem 1em;
+    background-color: rgb(0, 0, 0);
+    margin: 2.5em;
+    color: aliceblue;
+}
+
+.card:hover {
+    background-color: black;
+    color: rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+
+.card i {
+    font-size: var(--super-hero);
+}
+
+.card h4 {
+    font-size: var(--subtitle-default);
+}
+
+.card p {
+    padding: .1em;
+}
+
+.card input[type=submit] {
+    padding: 0 1em;
+    width: 5rem;
+    height: 2.5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--color-base-black);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card input[type=submit]:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(161, 0, 0);
+}
+
+/*#endregion*/
+
+/*#region team*/
+#team {
+    padding-top: 15rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#team h1 {
+    padding-top: 1em;
+    background-color: rgb(255, 255, 255);
+}
+
+.cardTeam {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 22%;
+    padding: .5em;
+    margin: 3rem;
+}
+
+.cardTeam:hover {
+    background-color:transparent;
+    border: transparent;
+    color: rgb(255, 0, 0);
+}
+
+.cardTeam h4 {
+    text-transform: uppercase;
+    font-size: var(--subtitle-default);
+    padding: 1em 0;
+}
+
+.cardTeam:hover img {
+    filter: saturate(1);
+    transition: .3s;
+    transform: scale(.8);
+}
+
+.cardTeam li {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.cardTeam img {
+    width: 90%;
+    border-radius: 50%;
+    filter: saturate(0);
+    transition: .3s;
+}
+
+.cardTeam img:hover {
+    filter: saturate(1);
+    transition: .3s;
+    transform: scale(.8);
+}
+
+.socialMedia {
+    font-size: var(--title-default);
+}
+
+.socialMedia i:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    color: rgb(255, 0, 0);
+}
+
+/*#endregion*/
+
+/*#region contact*/
+
+#contact{
+    width: 100%;
+    padding-top: 5rem;
+    text-align: center;
+    height: 80vh;
+}
+
+#contact article{
+    margin: 0 15%;
+}
+
+#contact h1{
+    padding-top: 1em;
+}
+
+#contact form nav{
+    display: flex;
+    background-color:transparent;
+    padding: 20px 0;
+}
+
+#contact form nav>div{
+    width: 50%;
+}
+
+#contact form nav>div>input{
+    width: 60%;
+    margin: 5px 15px;
+    border: 3px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+#contact form nav>div>textarea{
+    width: 60%;
+    margin: 9px 15px;
+    border: 3px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    resize: none;
+}
+
+#contact .buttonform{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact .buttonform input{
+    width: 10%;
+    padding: 5px 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: var(--anchor-default);
+    cursor: pointer;
+}
+
+#contact .buttonform input:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: .5s;
+}
+
+#contact form nav>div>input:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+/*#endregion*/
+
+
+/*#footer*/
+footer{
+    text-align: center;
+}
+
+footer article{
+    padding: 3rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+footer .redeSocial{
+    font-size: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .info a{
+    color: rgb(255, 255, 255);
+    font-size: var(--subtitle-default);
+}
+
+footer .horario{
+    width: 30%;
+}
+
+footer .redeSocial p:hover{
+    color: rgb(255, 0, 0);
+    transform: scale(1.2);
+}
+
+/*#endregion*/
+
+
+/*********Responsivo**********/
+@media only screen and (max-width: 1024px){
+    body{
+        background-color: aqua;
+    }
+
+    .menuInner{
+        width: 100%;
+    }
+
+    .menu{
+        position: relative;
+    }
+
+    .topo>h1{
+        right: 0;
+        left: 0;
+    }
+
+    .topo>h2{
+        right: 0;
+        left: 0;
+    }
+
+    #about{
+        height: auto;
+        padding-top: 15rem;
+    }
+
+    #team{
+        height: auto;
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .cardTeam{
+        width: 44%;
+        margin: 10px;
+    }
+
+    #team>h1{
+        padding: 1em 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .menuInner li:not(:first-child):not(:last-child){
+        display: none;
+    }
+
+    .cardTeam{
+        width: 100%;
+    }
+
+    #contact{
+        padding-top: 0;
+        height: auto;
+    }
+
+    #contact article{
+        margin: 0;
+    }
+
+    #contact form nav{
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    #contact form nav>div{
+        width: 100%;
+    }
+
+    .footer article{
+        flex-wrap: wrap;
+    }
+
+    footer .redeSocial{
+        width: 100%;
+    }
+
+    footer .horario{
+        width: 100%;
+    }
+
+
+}

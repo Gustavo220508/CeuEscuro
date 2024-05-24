@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ManagerUser.master.cs" Inherits="CeuEscuro.UI.adm.ManagerUser" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../resource/style.css" rel="stylesheet" />
+    <title>Ceu Escuro</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--menu--%>
+        <div class="menu">
+            <nav>
+                <ul class="menuInner">
+                    <li>
+                        <img src="../img/logoAp (1).png" />
+                    </li>
+                    <li>
+                        <a href="User.aspx">User</a>
+                    </li>
+                    <li>
+                        <a href="Film.aspx">Film</a>
+                    </li>
+                    <li>
+                        <a href="../_CeuEscuro/index.html">Logoff</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <%--footer--%>
+    </form>
+    <div class="rodape">
+        <rodape>
+            <ul class="rodapeInner">
+                <li>
+                    <img src="../img/logoAp (1).png" />
+                </li>
+                <li>
+                    <span>Copyright &copy; all rights reserved 2012</span>
+                </li>
+                <li>
+                    <span>Powered by dark sky</span>
+                </li>
+                <li>
+                    
+                </li>
+            </ul>
+        </rodape>
+    </div>
+
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- jquery mask -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+
+</body>
+</html>

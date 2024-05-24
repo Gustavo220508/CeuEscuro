@@ -1,0 +1,157 @@
+﻿@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.otf');
+}
+
+* {
+    font-family: 'Popping';
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Pagina do Login*/
+input[type=submit] {
+    padding: 20px 30px;
+    width: 150px;
+    transition: .5s;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    margin: 0 20px;
+}
+
+
+    input[type=submit]:hover {
+        border: 1px solid aliceblue;
+        background-color: transparent;
+        color: aliceblue;
+        transition: .5s;
+    }
+
+input[type=text], [type=password] {
+    padding: 5px 15px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    opacity: .8;
+}
+
+    input[type=text]:focus, [type=password]:focus {
+        opacity: 1;
+    }
+
+li {
+    margin-bottom: 20px;
+}
+
+.geral {
+    width: calc(100% - 300px);
+    height: auto;
+    /* background-color: red;*/
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+    .geral > h1 {
+        font-size: 70px;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-weight: 100;
+        color: aliceblue;
+    }
+
+body {
+    background-color:#520000
+}
+
+
+
+/*Pagina de administrador do Usuario*/
+.container {
+    width: 70%;
+    margin: 0 auto;
+    /*background-color: saddlebrown;*/
+    padding: 80px 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    color:aliceblue
+}
+
+th {
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+table td {
+    padding: 5px 0;
+}
+
+table input[type=button] {
+    padding: 5px 10px;
+    border: none;
+    width:200px
+}
+
+span{
+    color:red;
+}
+
+.menu{
+    width:100%;
+    height:70px;
+    background-color:maroon;
+    position:fixed;
+    z-index:99;
+}
+
+.menuInner{
+    display:flex;
+    height:70px;
+    line-height:70px;
+}
+
+.menuInner img{
+    height:70px;
+    /*padding:0 30px;*/
+}
+
+.menuInner li{
+    margin:0 150px;
+}
+
+.menuInner a{
+    text-decoration:none;
+    color:aliceblue;
+}
+
+    .menuInner a:hover{
+        font-size:30px;
+        color:red;
+        transition: .3s;
+    }
+
+.rodape{
+    width:100%;
+    height:150px;
+    /*background-color:red;*/
+    /*opacity: .6;*/
+}
+
+.rodapeInner {
+    display: flex;
+    height: 150px;
+    /*line-height: 150px;*/
+    justify-content:space-around;
+    align-items:center;
+}
+
+.rodapeInner li{
+    margin:0
+}
+
